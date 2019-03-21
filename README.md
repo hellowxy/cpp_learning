@@ -1,2 +1,2 @@
 # cpp_learning
-demos of cpp learning
+demoes of cpp learning
