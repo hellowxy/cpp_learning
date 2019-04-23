@@ -1,5 +1,6 @@
 #include<iostream>
 #include"vec.h"
+#include"Str.h"
 
 using namespace std;
 template<typename T>
@@ -23,6 +24,15 @@ int main()
     v.push_back(2);
     dumpVec(v);
     cout << "done" << endl;
+
+    Str s;
+    cout << s << endl;
+
+    s = "hello world";
+    cout << s << endl;
+
+    s = s + "!!!";
+    cout << s << endl;
     return 0;
 }
 

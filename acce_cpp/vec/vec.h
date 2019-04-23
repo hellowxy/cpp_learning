@@ -84,6 +84,11 @@ class Vec
             }
             unchecked_append(val);
         }
+
+        void clear()
+        {
+            uncreate();
+        }
     private:
         iterator data;
         iterator avail;
